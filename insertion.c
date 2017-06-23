@@ -4,7 +4,7 @@ int insert()
 {
 printf("Enter the limit:\n");
 scanf("%d",&n);
-printf("Enter the Array:\n");
+printf("Enter the array:\n");
 for(i=0;i<n;i++)
 {
 scanf("%d",&array[i]);
@@ -28,7 +28,7 @@ int main()
 {
 insert();
 sort(array);
- printf("The Sorted array:\n");
+ printf("The Sorted Array:\n");
 
 for(i=0;i<n;i++)
 {

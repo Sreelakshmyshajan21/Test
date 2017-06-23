@@ -1,1 +1,1 @@
-Implementation of sorting using insertion sort
+Sorting an array using insertion sort
