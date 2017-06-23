@@ -1,9 +1,7 @@
 #include<stdio.h>
- 
-int main()
-{
-int array[7]={4,23,43,38,15,10};
 int i,j,k;
+int sort(int *array)
+{
 for(i=1;i<7;i++)
 {
   k=array[i];
@@ -14,6 +12,13 @@ for(i=1;i<7;i++)
      array[j]=k;
    }
 }
+return 0;
+} 
+int main()
+{
+int array[7]={4,23,43,38,15,10};
+
+sort(array);
  printf("The Sorted array:\n");
 
 for(i=0;i<7;i++)
@@ -21,5 +26,6 @@ for(i=0;i<7;i++)
 printf("%d  ",array[i]);
 }
 printf("\n");
+return 0;
 }
 
