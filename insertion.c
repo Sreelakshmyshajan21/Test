@@ -2,8 +2,9 @@
 int i,j,k,n,array[50];
 int insert()
 {
-printf("enter the limit\n");
+printf("Enter the limit:\n");
 scanf("%d",&n);
+printf("Enter the Array:\n");
 for(i=0;i<n;i++)
 {
 scanf("%d",&array[i]);
@@ -25,8 +26,7 @@ return 0;
 } 
 int main()
 {
-//int array[7]={4,23,43,38,15,10};
-
+insert();
 sort(array);
  printf("The Sorted array:\n");
 
